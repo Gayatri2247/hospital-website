@@ -1,0 +1,38 @@
+.top-bar {
+  background-color: #0b6fa4;
+  font-size: 14px;
+}
+
+.hero-section {
+  background: linear-gradient(rgba(11,111,164,0.8), rgba(11,111,164,0.8)),
+              url('../images/hospital.jpg') center/cover no-repeat;
+  padding: 100px 0;
+}
+
+.service-box {
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0,0,0,0.08);
+}
+
+.service-box h5 {
+  color: #0b6fa4;
+}
+
+.doctor-box {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.doctor-box span {
+  font-size: 14px;
+  color: gray;
+}
+
+.cta-section {
+  background-color: #0b6fa4;
+  padding: 60px 20px;
+}
