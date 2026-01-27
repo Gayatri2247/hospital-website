@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gayatri2247.github.io/hospital-website/sitemap.xml
