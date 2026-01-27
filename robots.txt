@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://www.rajputeyehospital.com/sitemap.xml
+Sitemap: https://gayatri2247.github.io/hospital-website/sitemap.xml
