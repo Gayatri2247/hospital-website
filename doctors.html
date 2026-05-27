@@ -1,50 +1,103 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Doctors | Rajput Eye Hospital</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
 
-<div class="container">
+<header class="navbar">
+  <div class="container nav-container">
 
-  <div class="nav">
-    <div><b>Rajput Eye Hospital</b></div>
-    <div>
+    <div class="logo">Rajput Eye Hospital</div>
+
+    <div class="nav-links">
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
-      <a href="doctors.html">Doctors</a>
       <a href="services.html">Services</a>
+      <a href="doctors.html">Doctors</a>
       <a href="contact.html">Contact</a>
     </div>
+
   </div>
+</header>
+
+<main class="container">
 
   <section class="section">
-    <h2>Our Doctors</h2>
+
+    <div class="section-title">
+      <h2>Our Medical Experts</h2>
+      <p>Experienced ophthalmologists dedicated to advanced eye care.</p>
+    </div>
 
     <div class="grid">
 
       <div class="card">
-        <img src="images/doctor11.jpg" style="width:100%;border-radius:12px;">
-        <h3>Dr. Alpesh Rajput</h3>
-        <p>Retina & Cataract Specialist</p>
+
+        <img src="images/doctor11.jpg"
+        alt="Dr Alpesh Rajput"
+        style="width:100%;border-radius:18px;">
+
+        <h3>Dr. Alpesh A. Rajput</h3>
+
+        <p>
+          Ophthalmologist & Retina Specialist with expertise in cataract surgery,
+          retina treatments and advanced eye care.
+        </p>
+
       </div>
 
       <div class="card">
-        <img src="images/doctor2.jpg" style="width:100%;border-radius:12px;">
-        <h3>Dr. Kalpesh Rajput</h3>
-        <p>Ophthalmologist</p>
+
+        <img src="images/doctor2.jpg"
+        alt="Dr Kalpesh Rajput"
+        style="width:100%;border-radius:18px;">
+
+        <h3>Dr. Kalpesh A. Rajput</h3>
+
+        <p>
+          Experienced ophthalmologist focused on retinal disorders,
+          diabetic eye care and diagnostics.
+        </p>
+
       </div>
 
     </div>
+
   </section>
 
-  <footer>© 2026 Rajput Eye Hospital</footer>
+  <section class="cta">
 
-</div>
+    <h2>Consult Our Specialists</h2>
 
-<script src="js/script.js"></script>
+    <p>
+      Get advanced diagnosis and personalized treatment plans today.
+    </p>
+
+    <a href="contact.html" class="btn-primary">
+      Book Appointment
+    </a>
+
+  </section>
+
+</main>
+
+<footer>
+  <div class="footer-content">
+    <h3>Rajput Eye Hospital</h3>
+    <p>Ahmedabad, Gujarat, India</p>
+    <p>© 2026 All Rights Reserved</p>
+  </div>
+</footer>
+
 </body>
 </html>
