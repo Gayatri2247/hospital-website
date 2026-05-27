@@ -1,20 +1,29 @@
 @media(max-width:768px){
 
-  .nav{
+  .nav-container{
     flex-direction:column;
-    gap:12px;
+    gap:18px;
+  }
+
+  .nav-links{
+    flex-wrap:wrap;
+    justify-content:center;
   }
 
   .hero{
-    padding:80px 20px;
+    padding:90px 20px;
   }
 
   .hero h1{
+    font-size:38px;
+  }
+
+  .section-title h2{
     font-size:32px;
   }
 
-  .grid{
-    grid-template-columns:1fr;
+  .cta h2{
+    font-size:30px;
   }
 
 }
