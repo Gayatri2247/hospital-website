@@ -1,0 +1,68 @@
+/* GRID */
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:24px;
+  margin-top:24px;
+}
+
+/* CARD */
+
+.card{
+  background:white;
+  padding:24px;
+  border-radius:20px;
+  box-shadow:0 12px 35px rgba(0,0,0,0.08);
+  transition:.35s;
+  position:relative;
+  overflow:hidden;
+}
+
+.card:hover{
+  transform:translateY(-10px);
+}
+
+.card::before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  width:0%;
+  height:4px;
+  background:var(--primary);
+  transition:.4s;
+}
+
+.card:hover::before{
+  width:100%;
+}
+
+/* BUTTON */
+
+.btn{
+  display:inline-block;
+  margin-top:20px;
+  padding:12px 24px;
+  border-radius:12px;
+  background:white;
+  color:var(--primary);
+  text-decoration:none;
+  font-weight:600;
+  transition:.3s;
+}
+
+.btn:hover{
+  transform:scale(1.05);
+}
+
+/* FORM */
+
+input,textarea{
+  width:100%;
+  padding:14px;
+  margin-top:14px;
+  border-radius:12px;
+  border:1px solid #dbe4f0;
+  outline:none;
+}
