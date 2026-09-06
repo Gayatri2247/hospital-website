@@ -7,6 +7,8 @@
   <title>Rajput Eye Hospital</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Rajput Eye Hospital in Odhav, Ahmedabad provides specialist eye care, cataract, retina and vision services.">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
 <link rel="stylesheet" href="./css/style.css">
 <link rel="stylesheet" href="./css/layout.css">
 <link rel="stylesheet" href="./css/components.css">
@@ -20,38 +22,64 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 
   <header class="navbar">
     <div class="container nav-container">
-      <div class="logo">Rajput Eye Hospital</div>
+      <a class="logo" href="#home" aria-label="Rajput Eye Hospital home"><span class="logo-mark" aria-hidden="true"><i class="fa-solid fa-eye"></i></span>Rajput Eye Hospital</a>
 
       <div class="nav-links">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="services.html">Services</a>
-        <a href="doctors.html">Doctors</a>
-        <a href="contact.html">Contact</a>
+        <a href="#home">Home</a>
+        <a href="#about">About Doctors</a>
+        <a href="#services">Services</a>
+        <a href="#doctors">Doctors</a>
+        <a href="#technology">Technology</a>
+        <a href="#faq">FAQs</a>
+        <a href="#contact">Patient Portal / Book Appointment</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cta" href="tel:+919913087092"><i class="fa-solid fa-phone" aria-hidden="true"></i> Emergency Consultation</a>
       </div>
     </div>
   </header>
 
   <main class="container">
 
-    <section class="hero">
-      <h1>Advanced Eye Care For Better Vision</h1>
+    <section class="hero" id="home">
+      <span class="eyebrow">Rajput Eye Hospital · Odhav, Ahmedabad</span>
+      <h1>Advanced eye care and vitreo-retina surgery you can trust.</h1>
 
       <p>
-        Trusted eye specialists delivering advanced ophthalmic care,
-        retina treatments, cataract surgery and vision correction.
+        Comprehensive ophthalmology services led by specialized experts utilizing modern diagnostic and laser technology.
       </p>
 
-      <a href="contact.html" class="btn-primary">
-        Book Appointment
-      </a>
+      <div class="hero-actions">
+        <button class="btn-primary" type="button" data-open-booking>Schedule Appointment <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+        <a href="#services" class="btn-secondary">Explore Services</a>
+      </div>
+      <div class="hero-phone"><i class="fa-solid fa-phone" aria-hidden="true"></i> Need urgent advice? <a href="tel:+919913087092">+91 99130 87092</a> <span>or</span> <a href="tel:+919898073213">+91 98980 73213</a></div>
+      <div class="clinic-status" aria-live="polite"><span class="status-dot" aria-hidden="true"></span><strong data-clinic-status>Checking clinic status</strong><span data-clinic-hours>Mon - Sat: 9:30 AM - 12:00 PM and 5:30 PM - 8:00 PM · Sun: 10:00 AM - 12:00 PM</span></div>
     </section>
 
-    <section class="section">
+    <div class="trust-strip" aria-label="Hospital highlights">
+      <div class="trust-item"><strong><i class="fa-solid fa-calendar-check" aria-hidden="true"></i> Since 2007</strong><span>Serving Ahmedabad with specialist eye care</span></div>
+      <div class="trust-item"><strong><i class="fa-solid fa-award" aria-hidden="true"></i> FVRS · FICO</strong><span>Specialized surgical fellowships</span></div>
+      <div class="trust-item"><strong><i class="fa-solid fa-heart" aria-hidden="true"></i> Patient-first care</strong><span>Clear guidance from consultation to follow-up</span></div>
+    </div>
+
+    <section class="section" id="about">
+      <div class="section-title">
+        <span class="eyebrow">Care with clarity</span>
+        <h2>Specialist care with a human point of view.</h2>
+        <p>Led by Dr. Alpesh Anandkumar Rajput and Dr. Kalpesh A. Rajput, Rajput Eye Hospital brings specialist diagnosis, modern treatment and thoughtful follow-up together in Odhav, Ahmedabad.</p>
+      </div>
+      <div class="grid">
+        <div class="card feature-card"><div class="icon-circle"><i class="fa-solid fa-shield-heart" aria-hidden="true"></i></div><h3>Patient safety</h3><p>Clear explanations, careful diagnosis and treatment plans shaped around each patient's needs.</p></div>
+        <div class="card feature-card"><div class="icon-circle"><i class="fa-solid fa-microscope" aria-hidden="true"></i></div><h3>Modern diagnostics</h3><p>Specialist-led eye assessments for prevention, treatment planning and long-term vision health.</p></div>
+        <div class="card feature-card"><div class="icon-circle"><i class="fa-solid fa-hand-holding-heart" aria-hidden="true"></i></div><h3>Compassionate care</h3><p>A calm, respectful experience for adults, children and families at every visit.</p></div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
 
       <div class="section-title">
         <h2>Our Eye Care Services</h2>
-        <p>Modern treatments with compassionate patient care.</p>
+        <p>Specialist diagnosis, surgical planning and practical support for every stage of your vision journey.</p>
       </div>
 
 <div class="grid">
@@ -80,10 +108,10 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 
     <span class="badge">Vision Correction</span>
 
-    <h3>LASIK Treatment</h3>
+    <h3>Refractive Error Correction</h3>
 
     <p>
-      Laser-assisted procedures for clearer and sharper vision.
+      Consultation for laser eye surgery and refractive error correction options.
     </p>
 
   </div>
@@ -104,27 +132,68 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 
   </div>
 
+  <div class="card">
+    <div class="icon-circle"><i class="fa-solid fa-glasses" aria-hidden="true"></i></div>
+    <span class="badge">Optical</span>
+    <h3>Optical &amp; Dispensing</h3>
+    <p>Prescription glasses, custom frames and pediatric options to support clear everyday vision.</p>
+  </div>
+
+  <div class="card">
+    <div class="icon-circle"><i class="fa-solid fa-eye-dropper" aria-hidden="true"></i></div>
+    <span class="badge">Diagnosis</span>
+    <h3>Glaucoma Care</h3>
+    <p>Eye pressure assessment, diagnosis and ongoing care to help protect vision.</p>
+  </div>
+
+  <div class="card">
+    <div class="icon-circle"><i class="fa-solid fa-clipboard-check" aria-hidden="true"></i></div>
+    <span class="badge">Prevention</span>
+    <h3>Routine Eye Examinations</h3>
+    <p>Comprehensive eye checkups and visual assessments for ongoing eye health.</p>
+  </div>
+
 </div>
 
       <div class="stats">
 
         <div class="stat-box">
-          <h2>15+</h2>
-          <p>Years Experience</p>
+            <h2>2</h2>
+            <p>Connected hospitals</p>
         </div>
 
         <div class="stat-box">
-          <h2>10K+</h2>
-          <p>Successful Treatments</p>
+          <h2>3</h2>
+          <p>Listed specialists</p>
         </div>
 
         <div class="stat-box">
-          <h2>24/7</h2>
-          <p>Emergency Support</p>
+          <h2>7 days</h2>
+          <p>Consultation availability</p>
         </div>
 
       </div>
 
+    </section>
+
+    <section class="section technology-section" id="technology">
+      <div class="split-section">
+        <div>
+          <span class="eyebrow">Technology &amp; facilities</span>
+          <h2>Better decisions start with better diagnostics.</h2>
+          <p>Our clinical team uses modern diagnostic and laser technology to support careful assessment, treatment planning and follow-up.</p>
+          <ul class="check-list">
+            <li><i class="fa-solid fa-check" aria-hidden="true"></i> Vitreo-retina assessment and retinal laser care</li>
+            <li><i class="fa-solid fa-check" aria-hidden="true"></i> Glaucoma diagnostics and visual health monitoring</li>
+            <li><i class="fa-solid fa-check" aria-hidden="true"></i> Practical guidance for surgery and recovery</li>
+          </ul>
+        </div>
+        <div class="technology-panel" aria-label="Eye care technology highlights">
+          <div><i class="fa-solid fa-wave-square" aria-hidden="true"></i><strong>Diagnostic clarity</strong><span>Assessment-led care</span></div>
+          <div><i class="fa-solid fa-bolt" aria-hidden="true"></i><strong>Laser expertise</strong><span>Specialist treatment planning</span></div>
+          <div><i class="fa-solid fa-user-doctor" aria-hidden="true"></i><strong>Expert review</strong><span>Clinician-led decisions</span></div>
+        </div>
+      </div>
     </section>
 <section class="section">
 
@@ -158,7 +227,85 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 
   </div>
 
-</section>
+    </section>
+
+    <section class="section" id="doctors">
+      <div class="section-title">
+        <span class="eyebrow">Meet the team</span>
+        <h2>Experienced specialists. Personal attention.</h2>
+        <p>Our ophthalmology team combines clinical experience with a patient-first approach.</p>
+      </div>
+      <div class="grid">
+        <article class="card doctor-card">
+          <img class="doctor-image" src="images/doctor1.jpg" alt="Dr. Alpesh Anandkumar Rajput">
+          <h3>Dr. Alpesh Anandkumar Rajput</h3>
+          <p>Ophthalmologist and vitreo-retina surgeon. Super-specialties include vitreo-retina surgery, uvea, trauma, ROP and laser surgery.</p>
+          <p><strong>Qualifications:</strong> MBBS, DOMS, FICO, FVRS, FMRD</p>
+          <p><strong>Consultation:</strong> Typically 9:00 AM - 12:30 PM and 5:30 PM - 8:00 PM.</p>
+          <button class="btn-card" type="button" data-open-booking data-doctor="Dr. Alpesh Anandkumar Rajput">Book with Dr. Alpesh <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+        </article>
+        <article class="card doctor-card">
+          <img class="doctor-image" src="images/doctor2.jpg" alt="Dr. Kalpesh A. Rajput">
+          <h3>Dr. Kalpesh A. Rajput</h3>
+          <p>Ophthalmologist providing general eye care, retinal disorder assessment, diabetic eye care and diagnostics.</p>
+          <p><strong>Qualification:</strong> MBBS</p>
+          <p><strong>Consultation:</strong> 9:00 AM - 12:30 PM and 5:30 PM - 8:00 PM.</p>
+          <button class="btn-card" type="button" data-open-booking data-doctor="Dr. Kalpesh A. Rajput">Book with Dr. Kalpesh <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+        </article>
+        <article class="card doctor-card">
+          <img class="doctor-image" src="images/doctor3.png" alt="Dr. Manorama Rajput, pediatrician">
+          <h3>Dr. Manorama Rajput</h3>
+          <p>Practicing pediatrician at Rajput Eye Hospital and Children Hospital in Ahmedabad, located in the same building.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section faq-section" id="faq">
+      <div class="section-title">
+        <span class="eyebrow">Patient information</span>
+        <h2>Answers before your visit.</h2>
+        <p>Simple guidance for planning an appointment and preparing for care.</p>
+      </div>
+      <div class="faq-list">
+        <details><summary>Do you accept insurance?</summary><p>Please call <a href="tel:+919913087092">+91 99130 87092</a> or <a href="tel:+919898073213">+91 98980 73213</a> to confirm current insurance and payment arrangements before your visit.</p></details>
+        <details><summary>What should I bring to my appointment?</summary><p>Bring previous eye reports, current prescriptions, medication details and any referral documents relevant to your visit.</p></details>
+        <details><summary>What should I expect after surgery?</summary><p>Your doctor will explain the recovery plan, follow-up schedule, medication instructions and warning signs specific to your procedure.</p></details>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="section-title">
+        <span class="eyebrow">Plan your visit</span>
+        <h2>Let's take care of your vision.</h2>
+        <p>Request a consultation and our team can follow up during clinic hours.</p>
+      </div>
+      <div class="grid contact-grid">
+        <div class="card">
+          <div class="icon-circle"><i class="fa-solid fa-location-dot" aria-hidden="true"></i></div>
+          <h3>Visit the hospital</h3>
+          <p>134-136 Rameshwar Park Society,<br>Rajendra Park Cross Road, Odhav,<br>Ahmedabad, Gujarat 382415</p>
+          <p><strong>Rajput Eye Hospital and Children Hospital</strong><br>Child healthcare services are available in the same building.</p>
+          <p><strong>Rajput Eye Hospital</strong><br>Mon - Sat: 9:30 AM - 12:00 PM and 5:30 PM - 8:00 PM<br>Sun: 10:00 AM - 12:00 PM</p>
+          <p><strong>Appointments:</strong><br><a href="tel:+919913087092">+91 99130 87092</a><br><a href="tel:+919898073213">+91 98980 73213</a><br><a href="mailto:dralpeshrajput@gmail.com">dralpeshrajput@gmail.com</a></p>
+          <a class="directions-link" href="https://www.google.com/maps/search/?api=1&amp;query=Rajput+Eye+Hospital+Odhav+Ahmedabad" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-diamond-turn-right" aria-hidden="true"></i> Get directions</a>
+        </div>
+        <div class="card">
+          <h3>Request a consultation</h3>
+          <form id="appointment-form">
+            <label class="form-label" for="name">Your name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required maxlength="80" placeholder="Your name">
+            <label class="form-label" for="email">Email address</label>
+            <input id="email" name="email" type="email" autocomplete="email" required maxlength="120" placeholder="you@example.com">
+            <label class="form-label" for="message">How can we help?</label>
+            <textarea id="message" name="message" required maxlength="1000" placeholder="Tell us what you would like to discuss"></textarea>
+            <button class="btn-primary" type="submit">Request consultation</button>
+            <p class="form-note">Please do not include medical records or sensitive health information.</p>
+            <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
     <section class="cta">
       <h2>Your Vision Deserves Expert Care</h2>
 
@@ -166,12 +313,78 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         Schedule your consultation with our experienced eye specialists today.
       </p>
 
-      <a href="contact.html" class="btn-primary">
+      <a href="#contact" class="btn-primary">
         Contact Hospital
       </a>
     </section>
 
   </main>
+
+  <div class="modal-backdrop" id="booking-modal" hidden>
+    <section class="booking-modal" role="dialog" aria-modal="true" aria-labelledby="booking-title">
+      <button class="modal-close" type="button" data-close-booking aria-label="Close appointment booking"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+      <div class="booking-progress" aria-label="Booking progress"><span class="is-active" data-step-dot="1"></span><span data-step-dot="2"></span><span data-step-dot="3"></span></div>
+      <div class="booking-step is-active" data-step="1">
+        <span class="eyebrow">Appointment request</span>
+        <h2 id="booking-title">Choose your specialist.</h2>
+        <p class="modal-intro">Tell us who you would like to consult. The hospital team will confirm availability by phone.</p>
+        <label class="form-label" for="booking-service">Select service</label>
+        <select id="booking-service" required>
+          <option value="">Choose a service</option>
+          <option>Cataract Evaluation</option>
+          <option>Vitreo-Retina Care &amp; Laser Surgery</option>
+          <option>Glaucoma Management</option>
+          <option>Routine Comprehensive Eye Checkup</option>
+          <option>Optical &amp; Dispensing Services</option>
+        </select>
+        <label class="form-label" for="booking-doctor">Select doctor</label>
+        <select id="booking-doctor" required>
+          <option value="">Choose a doctor</option>
+          <option>Dr. Alpesh Anandkumar Rajput</option>
+          <option>Dr. Kalpesh A. Rajput</option>
+          <option>Dr. Manorama Rajput</option>
+        </select>
+        <button class="btn-primary modal-next" type="button" data-next-step="2">Continue <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+      </div>
+      <div class="booking-step" data-step="2" hidden>
+        <span class="eyebrow">Preferred timing</span>
+        <h2>When works for you?</h2>
+        <p class="modal-intro">Choose a preferred consultation window. The team will confirm the exact time.</p>
+        <div class="slot-options">
+          <label class="slot-option"><input type="radio" name="booking-slot" value="Morning: 09:00 AM - 12:30 PM"><span><strong>Morning</strong><small>09:00 AM - 12:30 PM</small></span></label>
+          <label class="slot-option"><input type="radio" name="booking-slot" value="Evening: 05:30 PM - 08:00 PM"><span><strong>Evening</strong><small>05:30 PM - 08:00 PM</small></span></label>
+        </div>
+        <label class="form-label" for="booking-date">Preferred date</label>
+        <input id="booking-date" type="date" required>
+        <div class="modal-actions"><button class="btn-text" type="button" data-previous-step="1">Back</button><button class="btn-primary modal-next" type="button" data-next-step="3">Continue <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button></div>
+      </div>
+      <div class="booking-step" data-step="3" hidden>
+        <span class="eyebrow">Almost there</span>
+        <h2>Share a few details.</h2>
+        <p class="modal-intro">Please avoid sending medical records or sensitive health information through this form.</p>
+        <label class="form-label" for="booking-name">Your name</label>
+        <input id="booking-name" type="text" autocomplete="name" required maxlength="80" placeholder="Your name">
+        <label class="form-label" for="booking-phone">Phone number</label>
+        <input id="booking-phone" type="tel" autocomplete="tel" required maxlength="20" placeholder="Your phone number">
+        <label class="form-label" for="booking-symptoms">What would you like help with?</label>
+        <textarea id="booking-symptoms" maxlength="500" required placeholder="For example: routine checkup, cataract consultation, retina review"></textarea>
+        <div class="modal-actions"><button class="btn-text" type="button" data-previous-step="2">Back</button><button class="btn-primary" type="button" data-submit-booking>Send request</button></div>
+      </div>
+      <div class="booking-step booking-success" data-step="success" hidden>
+        <div class="success-icon"><i class="fa-solid fa-check" aria-hidden="true"></i></div>
+        <h2>Request received.</h2>
+        <p id="booking-summary">Please call the hospital to confirm your appointment request.</p>
+        <a class="btn-primary" href="tel:+919913087092">Call appointment desk</a>
+        <a class="whatsapp-link" data-whatsapp-link href="https://wa.me/919898073213" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> Continue in WhatsApp</a>
+      </div>
+    </section>
+  </div>
+
+  <div class="mobile-action-bar" aria-label="Quick patient actions">
+    <a href="tel:+919913087092"><i class="fa-solid fa-phone" aria-hidden="true"></i><span>Call</span></a>
+    <button type="button" data-open-booking><i class="fa-solid fa-calendar-check" aria-hidden="true"></i><span>Book</span></button>
+    <a href="https://wa.me/919898073213" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i><span>WhatsApp</span></a>
+  </div>
 
   <footer>
     <div class="footer-content">
@@ -180,9 +393,10 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
       <p>© 2026 All Rights Reserved</p>
     </div>
   </footer>
-  <a href="contact.html" class="floating-contact">
+  <a href="#contact" class="floating-contact" aria-label="Go to appointment form">
   <i class="fa-solid fa-phone"></i>
 </a>
 
+<script src="js/script.js" defer></script>
 </body>
 </html>
